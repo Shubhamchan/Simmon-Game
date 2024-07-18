@@ -1,0 +1,80 @@
+.hi{
+    background:url(https://cdn.pixabay.com/photo/2021/11/14/20/08/background-6795626_640.png);
+    background-size:cover;
+}
+.start{
+    font-size:60px;
+    text-align: center;
+    font-weight:900;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:bisque;
+    text-decoration-style:dotted;
+    font-variant: small-caps;
+    font-stretch:extra-expanded;
+    font-size-adjust:inherit;
+    font-size-adjust:unset;
+    text-decoration:dotted;
+    opacity:0.9;
+    animation:fadeIn 10s;  
+    box-shadow: 10px 10px 10px bisque;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }  
+    100% { opacity: 1; }
+}
+.game{
+    display:grid;
+    grid-template-columns:200px 200px;
+    gap:40px;
+    justify-content:center;
+}
+#green{
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    border-radius:50px;;
+    background-color:green;
+    color:green
+}
+#orange{
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    border-radius:50px;
+    background-color:orange;
+    color:orange;
+}
+#yellow{
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    border-radius:50px;;
+    background-color:yellow;
+    color:yellow;
+}
+#blue{
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    border-radius:50px;;
+    background-color:blue;
+    color:blue;
+}
+
+#blue:active{
+    opacity: 0.5;
+    transition: .5s;
+}
+#orange:active{
+    opacity: 0.7;
+    transition:.5s;
+}
+#green:active{
+    opacity: 0.7;
+    transition: .5s;
+}
+#yellow:active{
+    opacity: 0.7;
+    transition: .5s;
+}
